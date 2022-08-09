@@ -1,0 +1,74 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/* ------------------------------------------------------------ */
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 58px;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+.heading p{
+    font-size: 30px;
+    padding: 30px;
+}
+
+/* -------------------------------------------------------------- */
+
+.btnSection {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 165px;
+    height: 165px;
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+    font-size: 33px;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count div {
+    padding: 14px;
+}
+
+.countEle {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#end {
+    padding: 15px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
